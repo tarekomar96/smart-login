@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24353f;
+}
+.form-control{
+    background-color: #24353f !important; 
+    color: #fff !important;
+}
+.form-control::placeholder{
+    color: #ffffffb3;
+}
+.form-control:focus{
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.link:hover{
+    border-bottom: 2px solid #fff;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    /* background-color: yellowgreen; */
+}
+.welcome-box{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    width: 70%;
+    margin-top: 150px;
+
+}
+.btn{
+    padding: 0 !important;
+}
